@@ -13,7 +13,7 @@ app.post("/", async (req, res) => {
 
     try {
 
-        const response = await fetch(`https://newsapi.org/v2/everything?q=${title}&sources=bbc-news&apiKey=${process.env.api}&lang=en`)
+        const response = await fetch(`https://newsapi.org/v2/everything?q=${title}&sources=bbc-news&apiKey=${process.env.REACT_APP_API_KEY}&lang=en`)
         const data = await response.json();
         res.status(200).json(data);
 
