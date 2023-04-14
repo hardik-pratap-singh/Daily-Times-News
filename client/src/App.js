@@ -27,6 +27,7 @@ function App() {
   return (
     <>
     <Navbar text = {text} settext = {setText}  />
+    
     {/* <br /><br />
     <h3 className = "mx-3" style={{fontWeight : 800}}> {`Displaying News Related to - ${text}`}</h3>
     <br /><br /> */}
@@ -34,7 +35,7 @@ function App() {
     <br />
     <br />
 
-    <div className="row">
+    <div className="row class1">
     { 
       news.map((x) =>{
         return (
