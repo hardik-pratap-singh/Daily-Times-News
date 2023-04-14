@@ -2,8 +2,15 @@
     font-family: 'Roboto Mono', monospace;
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
-    
-    
+}
+
+body{
+    background-color: #c0a0ce;
+
+}
+
+.loading{
+    margin-top: "50vh";
 }
 
 
