@@ -25,7 +25,7 @@ app.post("/", async (req, res) => {
 })
 
 
-const port = (process.env.PORT) || 5000 ; 
+const port = process.env.PORT || 5000 ; 
 app.listen(port , () => {
     console.log("Server Running on port 5000");
 })
