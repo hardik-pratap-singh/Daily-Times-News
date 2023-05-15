@@ -26,7 +26,7 @@ function App() {
   const [news, setNews] = useState([]);
   useEffect(() => {
     setIsLoading(true);
-    axios.post(`${process.env.REACT_APP_BASE_URL}`, {
+    axios.post("https://dailytimesnews.onrender.com", {
       title: text,
     })
       .then((x) => {

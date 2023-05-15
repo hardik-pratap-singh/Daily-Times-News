@@ -1,0 +1,16 @@
+#modehandler{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#moon{
+    width: 25px ;
+    height: 25px ;
+    
+}
+
+
+.img{
+    margin-left: 10px;
+}
