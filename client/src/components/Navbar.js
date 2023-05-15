@@ -43,7 +43,7 @@ function Navbar({ text, settext , mode , toggleMode}) {
                         
                         
                         <form className="d-flex" role="search" >
-                            <input id="" onClick={func} value={text1} onChange={handleOnChange} style={mode === "light" ? lightmode : darkmode } className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <input id="" onClick={func} value={text1} onChange={handleOnChange} style={mode === "light" ? lightmode : darkmode } className="form-control me-2" type="search" placeholder="search topics like tesla,russia,india,farmers,..." aria-label="Search" />
                             <button className={`btn btn-outline-${mode === "light" ? "success" : "primary" }`} type="submit" onClick={(e) => { e.preventDefault(); settext(text1) }}>Search</button>
                         </form>
                         <div className="form-check form-switch mx-3" id="modehandler">
